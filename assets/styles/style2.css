@@ -14,7 +14,7 @@ nav {
 .menu {
   background-color: rgb(196, 196, 67);
   align-items: center;
-  width: 50vw;
+  width: 80vw;
   padding: 2rem;
 }
 
@@ -110,12 +110,6 @@ nav a:hover {
 /* 
                                                 about2 */
 
-#boton {
-  display: none;
-}
-#ocultarfondo {
-}
-
 .main2 {
   display: flex;
   flex-direction: column;
@@ -130,8 +124,6 @@ nav a:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-.logo2 {
 }
 
 .elcasiultimo {
@@ -168,22 +160,167 @@ nav a:hover {
   height: 25rem;
   margin: 5rem;
 }
-
-.ultimocontenedor{
+ .vaendos{
+  
+ }
+.ultimocontenedor {
   display: flex;
   justify-content: center;
   justify-content: space-around;
 }
-  
-.letrero2{
-  
-  font-size:  1rem;
+
+.letrero2 {
+  font-size: 1rem;
   justify-content: center;
+  align-items: center;
+  
+}
+.logo3 {
+  width: 5rem;
+  border-radius: 1rem;
+  background-color: aqua;
+  margin-right: 4rem;
+}
+
+/*      schedule */
+
+table,
+td,
+tr,
+th {
+  border: solid 2px black;
+  border-radius: 15%;
+  padding: 1rem;
+  border: rebeccapurple solid;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.contenedor-tabla {
+  display: flex;
+  justify-content: center;
+  height: 20rem;
+  align-self: center;
+  margin-top: 3rem;
+}
+.unicatabla {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.tabla {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.titulosdetabla {
+  background-color: aqua;
+  text-align: center;
+  align-items: flex-end;
+  justify-content: first baseline;
+  margin-top: 4rem;
+}
+/*   listas */
+
+.lista-padre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  
 
 }
-.logo3{ width: 5rem;
-  border-radius:1rem;
-  background-color: aqua; 
-  margin-right: 4rem;
+.imagen-de-lista{
+  width: 20rem;
+  margin: 4%;
+}
 
+.lista1{
+  list-style-type: lower-latin;
+  margin: 8%;
+
+
+  
+}
+.centrar{
+  width: 52%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.lista-padre2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.imagen-de-lista2{
+ width: 20rem;
+ 
+}
+
+.lista2{
+  list-style-type: lower-latin;
+  justify-content: space-evenly;
+}
+.lista2 h2{
+  margin: 4%;
+  text-align: center;
+
+}
+div .lista2{
+  text-align: center;
+}
+
+.lista2 li{
+  margin: 7%;
+}
+.centrar2{
+  width: 47%;
+  display: flex;
+  justify-content: space-evenly;
+}
+                       /*  formulario */
+                        
+.cuerpo-formulario{
+  display: flex;
+  border: solid palegoldenrod;
+  width: 80rem;
+ justify-items: center;
+ flex-direction: column ;
+ background-color: coral;
+text-align: center;
+height: 91rem;
+justify-content: center;
+font-size: 1.5rem;
+}
+ .formula-imagen img{
+  width:74rem;
+  background-color: aqua;
+  height: 45rem;
+  
+  border: rgb(244, 164, 96);
+  justify-content: space-between;
+ }
+ .formula-imagen{
+  
+  width: 94vh;
+
+  }
+  iframe{width: 200dvh;
+    
+  }
+
+div.imagen-y-mapa{
+  display: flex;
+  justify-content: space-between;
+}
+.subti-formularios{
+  text-align:right
+
+}
+.titulo-del-formulario{
+  text-align: center;
 }
